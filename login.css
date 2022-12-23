@@ -1,0 +1,244 @@
+ body {
+     margin: 0;
+     padding: 0;
+     background: url('paisaje.jpeg');
+     
+     background-size: 120vw 200vh;
+     background-repeat: no-repeat;
+ }
+ 
+ .contenedor {
+     position: absolute;
+     top: 12%;
+     left: 5%;
+     transform: (-50, -50);
+     width: auto;
+     height: 500px;
+     box-sizing: border-box;
+     background-color: rgba(0,0,0, .5);
+     border-radius: 20px;
+ }
+
+ h3 {
+     margin-bottom: 2px;
+     margin-left: 5px;
+     padding: 0 0 20px;
+     font-weight: bold;
+     color: #fff;
+ }
+ 
+ p {
+    margin: 0; 
+    margin-left: 5px;
+    padding: 0;
+    font-weight: bold;
+    color: #fff;
+ }
+ 
+ input, select {
+     background-color: #fff;
+     margin-bottom: 25px;
+     margin-left: 5px;
+     width: 250px;
+     outline: none;   
+     color: white;  
+ }
+ 
+ input[type=text], input[type=password] {
+     border: none;
+     border-bottom: 1px solid #fff;
+     background-color: transparent;
+ }
+ 
+ input[type=email] {
+     color: #000;
+ }
+ 
+ input[type=email]::placeholder {
+  color: #000;
+ }
+ 
+ ::placeholder {
+     color: #fff;
+ }
+ 
+ select {
+     color: #000;
+     margin-top: 20px;
+     padding: 10px, 0;
+     font-size: 16px;
+ }
+ 
+ input[type=submit] {
+     border: none;
+     height: 40px;
+     outline: none;
+     color: #fff;
+     font-size: 15px;
+     background-color: indianred;
+     cursor: pointer;
+     border-radius: 20px;
+     
+ }
+ 
+ input[type=submit]:hover {
+   background-color: dimgrey;  
+   color: #000;
+ }
+ 
+ a {
+     color: #fff;
+     font-weight: bold;
+     font-size: 14px;
+     text-decoration: underline;
+     margin-left: 18%;
+ }
+ 
+ 
+ @media(max-width: 318px) {
+     .contenedor {
+     top: 19%;
+     left: 0;
+      display: flex;
+     }
+     .frase {
+         font-size: 8px;
+     }
+ }
+    
+ @media(min-width: 319px) {
+     body {
+         background-size: 120vw 220vh;
+     }
+     
+     .contenedor {
+     top: 23%;
+     left: 0;
+     width: 310px;
+     height: 420px; 
+     }
+     .frase {
+         font-size: 9px;
+     }
+ }
+ 
+  @media(min-width: 374px) {
+     .contenedor {
+     top: 25%;
+     left: 3%;
+     width: 310px;
+     height: 420px; 
+     }
+     .frase {
+         font-size: 9px;
+     }
+ }
+ 
+  @media(min-width: 434px) {
+     .contenedor {
+     left: 3.5%;
+     width: 330px;
+     }
+     .frase {
+         font-size: 10px;
+     }
+ }
+ 
+  @media(min-width: 450px) {
+     .contenedor {
+     top: 25%;
+     left: 4%;
+     display: flex;
+     width: 316px;
+     height: 410px; 
+     }
+     
+     .frase {
+         font-size: 11px;
+     }
+ }
+ 
+ @media(min-width: 600px) {
+      body {
+          background-size: 120vw 566vh;
+      }
+      
+     .contenedor {
+     top: 30%;
+     left: 4%;
+     display: flex;
+     width: 316px;
+     height: 410px; 
+     }
+     .frase {
+       
+     }
+ }
+ 
+  @media(min-width: 767px) {
+      body {
+        background-size: 120vw 200vh;  
+      }
+     .contenedor {
+     top: 9%;
+     left: 7%;
+     display: flex;
+     width: 310px;
+     height: 420px; 
+     }
+     .frase {
+         position: absolute;
+         top: 170px;
+         left: 56%;
+         width: 250px;
+         text-align: justify;
+         font-size: 13px;
+     }     
+ }
+ 
+ @media(min-width: 970px) {
+     .contenedor {
+     top: 24%;
+     left: 7%;
+     display: flex;
+     width: 450px;
+     height: 450px; 
+     }
+     
+     input, select {
+     margin-bottom: 25px;
+     margin-left: 40px;
+     width: 330px;
+     height: 23px;
+     font-size: 20px;
+     }  
+      
+      p {
+          margin-left: 40px;
+          font-size: 19px;
+      }   
+      
+      a {
+          margin-left: 28%;
+      } 
+      
+      ::placeholder {
+          font-size: 19px;
+      }
+       
+     .frase {
+         position: absolute;
+         top: 300px;
+         left: 58%;
+         width: 250px;
+         text-align: justify;
+         font-size: 13px;
+     }     
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
